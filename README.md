@@ -60,8 +60,7 @@
     
 16. Line畫面收到NetSuite推撥訊息
     
-    ![image](https://github.com/user-attachments/assets/b00dd5ea-46d3-4a25-8df4-fe451d5e9682)
-    
+    <img src="https://github.com/user-attachments/assets/b00dd5ea-46d3-4a25-8df4-fe451d5e9682" width="400">    
 
 ---
 
@@ -73,14 +72,14 @@
 
 - Webhook節點都用預設值即可，要選POST方法，將n8n給你的網址貼到步驟11, 即對應到NetSuite Action Script的變數custscript_wf_webhook_url中
 
-![image](https://github.com/user-attachments/assets/6cd29555-99a9-4f44-8c8c-ee27c89d6850)
+ <img src="https://github.com/user-attachments/assets/6cd29555-99a9-4f44-8c8c-ee27c89d6850" width="400">  
 
 ### Line部份
 
 你會需要Line的官方Developers Console(https://developers.line.biz/en/)
 找到你的line頻道，在Managing API下方有Channel access token複製下來。然後照這樣打到Http Request 節點中的Header Auth中，Bearer後面要有一個空白。
 
-![image](https://github.com/user-attachments/assets/4ffda90f-f884-4717-9f75-1bd4759a5875)
+<img src="https://github.com/user-attachments/assets/4ffda90f-f884-4717-9f75-1bd4759a5875" width="400">  
 
 ![image](https://github.com/user-attachments/assets/c732b706-1062-459e-9ceb-e6756c467661)
 
