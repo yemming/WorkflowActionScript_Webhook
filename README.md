@@ -77,7 +77,8 @@
 
 ### Line部份
 
-你會需要Line的官方Developers Console(https://developers.line.biz/en/)找到你的line頻道，在Managing API下方有Channel access token複製下來。然後照這樣打到Http Request 節點中的Header Auth中，Bearer後面要有一個空白。
+你會需要Line的官方Developers Console(https://developers.line.biz/en/)
+找到你的line頻道，在Managing API下方有Channel access token複製下來。然後照這樣打到Http Request 節點中的Header Auth中，Bearer後面要有一個空白。
 
 ![image](https://github.com/user-attachments/assets/4ffda90f-f884-4717-9f75-1bd4759a5875)
 
